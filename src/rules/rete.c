@@ -38,7 +38,7 @@
 #define HASH_R 1203507539 //$r
 #define HASH_FORWARD 739185624 // $forward
 
-#define MAX_ACTIONS 4096
+#define MAX_ACTIONS 40960
 
 #define GET_EXPRESSION(tree, betaOffset, expr) do { \
     expressionSequence *exprs = &tree->nodePool[betaOffset].value.b.expressionSequence; \
